@@ -12,7 +12,7 @@ wdc_base.set_wdc_info(conf.cse.host,conf.cse.port,conf.ae.id);
 
 const { exec } = require('child_process');
 
-var delay = 5000;
+var delay = 5000; //Request time to oneM2M platform
 var interval_flag = true
 var reprtActvty=true;
 
@@ -35,7 +35,7 @@ setInterval(function(){ //Gravity ntu data read
 
 
 var timerId = '';
-function interval_upload(delay){ //upload to oneM2M platform
+function interval_upload(delay){ //send update request to oneM2M platform
     var cnt_path = conf.ae.parent + '/' + conf.ae.name + '/' + conf.cnt.name+ '/' +conf.cnt.flexcnt;//flex_cnt_path
     timerId = setInterval(function(){
       if(value_data !=''){
