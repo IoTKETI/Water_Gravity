@@ -18,7 +18,7 @@ Water_Gravity은 Nodejs LTS14.x을 사용한다.
   
 ## Configuration
 - Water_Gravity 동작시키기 위해 설정해야 하는 것은 conf.js에 있다.
-- 또한, Water_Gravity는 Gravity sensor를 동작시키기위한 python 모듈 혹은 코드 동작이 필요하다.
+- 또한, Water_Gravity는 Gravity sensor를 동작시키기위한 python 모듈 설치가 필요하다.
 - Water_Gravity 폴더에 접근후에 아래 명령어를 입력한다.
 - 아래 명령어를 입력하게 되면 Water_Gravity 동작에 필요한 모듈이 설치가 된다.
 ```
