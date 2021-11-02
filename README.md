@@ -80,7 +80,9 @@ var delay = 5000;                // Upload time to oneM2M platform
 
 ```
 - 동작시키기 위한 모듈은 "adafruit_ads1x15" 이며, 해당 모듈을 설치하면 동작시킬 수 있다.
+
 https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15
+
 import board
 import busio
 import time
