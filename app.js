@@ -12,7 +12,7 @@ wdc_base.set_wdc_info(conf.cse.host,conf.cse.port,conf.ae.id);
 
 const { exec } = require('child_process');
 
-var delay = 5000; //Request time to oneM2M platform
+var delay = 5000; //Default request time to oneM2M platform
 var interval_flag = true
 var reprtActvty=true;
 
