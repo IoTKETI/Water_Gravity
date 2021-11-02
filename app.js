@@ -17,7 +17,7 @@ var interval_flag = true
 var reprtActvty=true;
 
 var value_data='';
-setInterval(function(){
+setInterval(function(){ //Gravity ntu data read
     exec('python3 read-ad.py', (error, stdout, stderr) => {
         if (error) {
             console.error(`exec error: ${error}`);
@@ -35,7 +35,7 @@ setInterval(function(){
 
 
 var timerId = '';
-function interval_upload(delay){
+function interval_upload(delay){ //upload to oneM2M platform
     var cnt_path = conf.ae.parent + '/' + conf.ae.name + '/' + conf.cnt.name+ '/' +conf.cnt.flexcnt;//flex_cnt_path
     timerId = setInterval(function(){
       if(value_data !=''){
