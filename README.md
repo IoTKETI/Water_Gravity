@@ -62,7 +62,7 @@ module.exports = conf;
 ```
 
 ```
-var delay = 5000;                // Request time to oneM2M platform 
+var delay = 5000;                // Default request time to oneM2M platform 
 ```
 
 ## Gravity sensor python code
