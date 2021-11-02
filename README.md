@@ -77,7 +77,9 @@ var delay = 5000;                // Upload time to oneM2M platform
 - ADC Converter는 sparkfun의 ADS1015를 사용했다.
 ```
 <img src="https://user-images.githubusercontent.com/29790334/139806416-8eba805a-749e-4bb8-b230-b59d6a116ab6.png" width="200"/>
+
 ```
+
 - 동작시키기 위한 모듈은 "adafruit_ads1x15" 이며, 해당 모듈을 설치하면 동작시킬 수 있다.
 https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15
 import board
